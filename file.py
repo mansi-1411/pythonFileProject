@@ -11,7 +11,7 @@ if option==1:
         name=input("enter name:")
         course=input("enter course:")
         fees=input("enter fees:")
-        f.write('roll + "," + name + ","+ course + "," + fees\n')
+        f.write(roll + "," + name + ","+ course + "," + fees\n)
         
 elif option==2:
     with open('info.txt','r')as f:
